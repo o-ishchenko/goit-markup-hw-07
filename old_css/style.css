@@ -5,15 +5,15 @@
 /* темный фон #2F303A */
 /* светло-серый фон #F5F4FA */
 
-:root {
+/* :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --dark-bg-color: #2f303a;
   --lightgray-bg-color: #f5f4fa;
-}
-body {
+} */
+/* body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
 }
@@ -25,7 +25,12 @@ ul {
 a {
   text-decoration: none;
 }
-.container {
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+/* .container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -34,47 +39,23 @@ a {
 }
 .container--flexed {
   display: flex;
-}
-.section {
+} */
+/* .section {
   padding-bottom: 94px;
   padding-top: 94px;
-}
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.visually-hidden {
+} */
+
+/* .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
-}
+} */
 
 /* Верхняя линия*/
 
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-.header-nav-list {
-  display: flex;
-  margin-left: 93px;
-}
-.header-contacts-list {
-  display: flex;
-  margin-left: auto;
-}
-.header-nav-list__item:not(:last-child),
-.header-contacts-list__item:not(:last-child) {
-  margin-right: 50px;
-}
-.logo {
+/* .logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -89,9 +70,30 @@ img {
   display: inline-block;
   margin-bottom: 20px;
   color: var(--primary-white-color);
-}
-.header-nav-list__link,
-.header-contacts-list__link {
+} */
+/* .header {
+  border-bottom: 1px solid #ececec;
+} */
+
+/* .header-nav {
+  display: flex;
+  align-items: center;
+} */
+/* .header-nav-list {
+  display: flex;
+  margin-left: 93px;
+} */
+/* .header-contacts-list {
+  display: flex;
+  margin-left: auto;
+} */
+/* .header-nav-list__item:not(:last-child), */
+/* .header-contacts-list__item:not(:last-child) {
+  margin-right: 50px;
+} */
+
+/* .header-nav-list__link, */
+/* .header-contacts-list__link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -107,16 +109,16 @@ img {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);
-}
-.header-nav-list__link:hover,
-.header-nav-list__link:focus,
-.header-contacts-list__link:hover,
-.header-contacts-list__link:focus,
-.header-nav-list__link.header-nav-list__link--current {
-  color: var(--accent-color);
-}
+} */
+/* .header-nav-list__link:hover,
+.header-nav-list__link:focus, */
+/* .header-contacts-list__link:hover,
+.header-contacts-list__link:focus, */
+/* .header-nav-list__link.header-nav-list__link--current { */
+/* color: var(--accent-color);
+} */
 
-.header-nav-list__link.header-nav-list__link--current::after {
+/* .header-nav-list__link.header-nav-list__link--current::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -125,9 +127,9 @@ img {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
+} */
 
-.header-contacts-list__link .icon {
+/* .header-contacts-list__link .icon {
   fill: currentColor;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -136,11 +138,11 @@ img {
 .header-contacts-list__link:hover .icon,
 .header-contacts-list__link:focus .icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Герой */
 
-.hero {
+/* .hero {
   margin-right: auto;
   margin-left: auto;
   padding-top: 200px;
@@ -164,9 +166,9 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+} */
 
-.main-btn {
+/* .main-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,14 +198,14 @@ img {
   margin-left: 10px;
   width: 24px;
   height: 24px;
-}
+} */
 
 /* Особенности */
 
-.features.section {
+/* .section--no-bottom-padding {
   padding-bottom: 0;
-}
-.features-list {
+} */
+/* .features-list {
   display: flex;
 }
 .features-list__logo {
@@ -236,18 +238,18 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /* Чем мы занимаемся */
-.secondary-title {
+/* .secondary-title {
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-}
-.what-we-do-list {
+} */
+/* .what-we-do-list {
   display: flex;
 }
 .what-we-do-list__item {
@@ -273,13 +275,13 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-}
+} */
 
 /* наша команда */
-.team {
+/* .team {
   background-color: var(--lightgray-bg-color);
-}
-.team-list {
+} */
+/* .team-list {
   display: flex;
 }
 .team-list__item {
@@ -309,8 +311,8 @@ img {
   margin-bottom: 16px;
   font-weight: 400;
   color: var(--secondary-text-color);
-}
-.social-links-list {
+} */
+/* .social-links-list {
   display: flex;
   justify-content: space-between;
   margin-right: auto;
@@ -348,10 +350,10 @@ img {
 }
 .social-links-list__link.social-links-list__link--bg-gray:hover,
 .social-links-list__link.social-links-list__link--bg-gray:focus {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color); */
 }
 /* Постоянные клиенты */
-.clients-list {
+/* .clients-list {
   display: flex;
 }
 .clients-list__item {
@@ -383,11 +385,11 @@ img {
 .clients-list__link:hover .icon,
 .clients-list__link:focus .icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Портфолио */
 
-.portfolio-btn-list {
+/* .portfolio-btn-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -415,8 +417,8 @@ img {
   color: var(--primary-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.portfolio-list {
+} */
+/* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -485,9 +487,9 @@ img {
 .portfolio-list__item:hover .portfolio-list__overlay,
 .portfolio-list__item:focus .portfolio-list__overlay {
   transform: translateY(0);
-}
+} */
 /* Подвал */
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-bg-color);
@@ -500,9 +502,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 
-.address-list {
+/* .address-list {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -523,26 +525,24 @@ img {
 .address-list__link:hover,
 .address-list__link:focus {
   color: var(--accent-color);
-}
-.footer-join-us {
+} */
+/* .footer__join-us {
   margin-left: 70px;
   margin-top: 12px;
   color: var(--primary-white-color);
 }
 
-.footer-subscribe {
+.footer__subscribe {
   margin-left: 93px;
   margin-top: 12px;
   color: var(--primary-white-color);
-}
-.subscribe-form {
+} */
+/* .subscribe-form {
+   position: relative;
   display: flex;
   align-items: center;
 }
 
-.subscribe-form {
-  position: relative;
-}
 .subscribe-form__email {
   height: 50px;
   min-width: 358px;
@@ -568,10 +568,10 @@ img {
 .subscribe-form__email:focus + .subscribe-form__label,
 .subscribe-form__email:not(:placeholder-shown) + .subscribe-form__label {
   opacity: 0;
-}
+} */
 
 /* Модальное окно и бекдроп */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -587,19 +587,9 @@ img {
 }
 .backdrop.backdrop--is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.7);
-}
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  min-width: 528px;
-  min-height: 581px;
-  padding: 40px;
-  background-color: var(--primary-white-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.close-btn {
+} */
+
+/* .close-btn {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -621,6 +611,17 @@ img {
 .close-btn:hover svg,
 .close-btn:focus svg {
   fill: var(--accent-color);
+} */
+/* .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  min-width: 528px;
+  min-height: 581px;
+  padding: 40px;
+  background-color: var(--primary-white-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__title {
   margin-top: 0;
@@ -736,4 +737,4 @@ img {
   margin-left: 5px;
   text-decoration: underline;
   color: var(--accent-color);
-}
+} */
