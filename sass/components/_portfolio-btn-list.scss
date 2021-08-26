@@ -2,10 +2,11 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
-.portfolio-btn-list__item:not(:last-child) {
-  margin-right: 8px;
-}
+
 .portfolio-btn-list__btn {
   padding: 6px 22px;
   background-color: $lightgray-bg-color;

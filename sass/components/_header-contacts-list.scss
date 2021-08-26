@@ -1,10 +1,9 @@
 .header-contacts-list {
   display: flex;
   margin-left: auto;
-}
-
-.header-contacts-list__item:not(:last-child) {
-  margin-right: 50px;
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header-contacts-list__link {

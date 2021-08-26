@@ -59,9 +59,9 @@
   &:focus {
     border-color: $accent-color;
   }
-}
-.modal__textarea::placeholder {
-  color: rgba(117, 117, 117, 0.5);
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .modal__icon {
@@ -108,18 +108,19 @@
   margin-right: 9px;
   border: 2px solid $primary-text-color;
   border-radius: 2px;
+  .modal__checkbox-input:checked + & {
+    border: 0px solid transparent;
+    background-color: $accent-color;
+    background-origin: border-box;
+  }
 }
 .modal__checkbox-icon {
   opacity: 0;
+  .modal__checkbox-input:checked + .modal__checkbox-area & {
+    opacity: 1;
+  }
 }
-.modal__checkbox-input:checked + .modal__checkbox-area {
-  border: 0px solid transparent;
-  background-color: $accent-color;
-  background-origin: border-box;
-}
-.modal__checkbox-input:checked + .modal__checkbox-area .modal__checkbox-icon {
-  opacity: 1;
-}
+
 .modal__link {
   margin-left: 5px;
   text-decoration: underline;

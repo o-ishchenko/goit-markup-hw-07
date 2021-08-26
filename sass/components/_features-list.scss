@@ -12,10 +12,11 @@
 }
 .features-list__item {
   width: calc((100% - 90px) / 4);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.features-list__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .features-list__title {
   margin-top: 0;
   margin-bottom: 10px;

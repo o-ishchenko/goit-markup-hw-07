@@ -4,10 +4,11 @@
 .clients-list__item {
   width: calc((100%-150px) / 6);
   height: 92px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.clients-list__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .clients-list__link {
   display: flex;
   justify-content: center;

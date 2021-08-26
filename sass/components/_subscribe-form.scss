@@ -25,8 +25,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-}
-.subscribe-form__email:focus + .subscribe-form__label,
-.subscribe-form__email:not(:placeholder-shown) + .subscribe-form__label {
-  opacity: 0;
+  .subscribe-form__email:focus + &,
+  .subscribe-form__email:not(:placeholder-shown) + & {
+    opacity: 0;
+  }
 }

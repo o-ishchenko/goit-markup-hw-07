@@ -29,13 +29,13 @@
   }
 }
 
-.social-links-list__link.social-links-list__link--bg-gray {
+.social-links-list__link--bg-gray {
   background-color: rgba(256, 256, 256, 0.1);
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
-.social-links-list__link.social-links-list__link--bg-gray .icon {
+.social-links-list__icon--white {
   fill: $primary-white-color;
-}
-.social-links-list__link.social-links-list__link--bg-gray:hover,
-.social-links-list__link.social-links-list__link--bg-gray:focus {
-  background-color: $accent-color;
 }
